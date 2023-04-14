@@ -1,4 +1,6 @@
 Cinema app
+
+
 This is a cinema app implemented in Python using Postgres, MongoDB, Celery, Redis, RabbitMQ, and Django Ninja. 
 The program allows users to add new movies via an API, with each movie having a name, list of protagonists, poster image, start date, status, and ranking field.
 It also synchronizes Postgres movie instances to MongoDB, accounts for all cases (creation, deletion, etc.), and increases the rank of each instance by 10, once every 5 minutes, from the movie creation (status=upcoming) to the movie launch (status=running).
