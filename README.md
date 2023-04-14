@@ -22,3 +22,7 @@ views.py: This file contains the Django views for our cinema program. We have de
 tasks.py: This file contains the Celery tasks for updating the movie rankings. We have defined a task that runs every 5 minutes and updates the ranking of movies that are in the "upcoming" or "starting" status.
 
 Docker-compose.yml: This file specifies all dependencies such as the environment, broker and database URL.
+
+Suggested Improvements ;)
+
+Use a dedicated image storage service like Amazon S3 to store posters for films (see file entitled S3.py for code implementation).
